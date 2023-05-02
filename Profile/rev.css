@@ -1,0 +1,145 @@
+.parent{
+    background-color:#5451fa;
+    min-width: 95%;
+    max-width: 350px;
+    min-height: 75vh;
+    border: 2px solid orange;
+    /* border-radius: 5px; */
+}
+
+.child{
+    max-width: 95%;
+    min-height: 70vh;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 5px auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.icons{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icons img{
+    padding: 5px;
+}
+
+.images{
+  
+    position: relative;
+    margin-bottom: 2em;
+ 
+}
+
+
+
+.one{
+    display: block;
+    width: 90%;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1.5em;
+}
+
+.two{
+    width: 100px;
+    height: 100px;
+    display: block;
+    position: absolute;
+    left: 35%;
+    top: 10%;
+}
+
+.names{
+    border:2px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* justify-items: center; */
+    justify-content: center;
+}
+
+#p2{
+    font-family: serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #979797;
+}
+
+.stats{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.stats a{
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+.stats a:hover{
+    color:#5451fa;
+
+}
+
+
+.stats span{
+    font-size: 16px;
+    font-weight: 100;
+    font-family: Roboto;
+    color: #979797;
+}
+
+.btnn{
+    width: 90%;
+    margin:0 auto;
+    border-radius: 10px;
+    background-color: #5451fa;
+}
+
+.btnn a{
+    text-decoration: none;
+    display: block;
+    font-weight: 500;
+    font-family: Roboto,serif;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.btnn a:hover{
+    background-color: #f5f5f5e0;
+    color: #5451fa;
+}
+
+
+.about{
+    margin-left: 2em;
+}
+
+@media (min-width:415px){
+    .parent{
+       min-width: 400px;
+       margin: 20px auto;
+       max-height: 75vh;
+    }
+
+    .child{
+        width: 90%;
+    }
+}
